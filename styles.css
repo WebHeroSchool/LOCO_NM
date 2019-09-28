@@ -1,3 +1,4 @@
+/*GENERAL*/
 main{
     position: relative;
     width: 1440px;
@@ -12,6 +13,8 @@ main{
     width: 1440px;
     height: 900px;
 }
+
+
 /*First section*/
 .main1{
     background: #FFFFFF;
@@ -75,10 +78,11 @@ main{
 .main1__new-collection{
     position: absolute;
     width: 491px;
-    height: 397px;
+    height: 459px;
     left: 786px;
     top: 263px;
 }
+
 .main1__new-collection_title{
     font-family: Montserrat, sans-serif;
     font-style: normal;
@@ -96,6 +100,11 @@ main{
     line-height: 21px;
 
     color: #000000;
+}
+.main1__new-collection_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
 }
 .main1__new-collection_read-more-box{
     /*position: absolute;*/
@@ -122,6 +131,33 @@ main{
 
     color: #000000;
 }
+
+
+.main1__new-collection_other-offers-text{
+    padding: 20px 5px;
+
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 0;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+.main1__scroll{
+    position: absolute;
+    width: 308px;
+    height: 807px;
+    left: 426px;
+    top: 54px;
+
+    border: 2px solid red;
+
+}
+
+
 
 
 
