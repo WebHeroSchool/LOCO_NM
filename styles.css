@@ -7,8 +7,8 @@ main{
     background: #FFFFFF;
 }
 .promo,
-.main2,
-.main3{
+.product,
+.look{
     position: absolute;
     width: 1440px;
     height: 900px;
@@ -19,7 +19,7 @@ main{
 .promo{
     background: #FFFFFF;
 }
-.main1__black-rectangle{
+.promo__black-rectangle{
     position: absolute;
     width: 461px;
     height: 900px;
@@ -36,7 +36,7 @@ main{
     top: 169px;
 }
 
-.main1__logo{
+.promo__logo{
     position: absolute;
     width: 98px;
     height: 37px;
@@ -55,7 +55,7 @@ main{
 
     color: #FFFFFF;
 }
-.main1__lang-ru{
+.promo__lang-ru{
     position: absolute;
     width: 31px;
     height: 25px;
@@ -92,7 +92,7 @@ main{
 
     color: #000000;
 }
-.main1__new-collection_text {
+.promo__new-collection_text {
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -101,12 +101,12 @@ main{
 
     color: #000000;
 }
-.main1__new-collection_bottom{
+.promo__new-collection_bottom{
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
 }
-.main1__new-collection_read-more-box{
+.promo__new-collection_read-more-box{
     /*position: absolute;*/
     width: 203px;
     height: 44px;
@@ -117,7 +117,7 @@ main{
     box-sizing: border-box;
 
 }
-.main1__new-collection_read-more-text{
+.promo__new-collection_read-more-text{
     /*position: absolute;*/
     padding: 9px 35px;
 
@@ -133,7 +133,7 @@ main{
 }
 
 
-.main1__new-collection_other-offers-text{
+.promo__new-collection_other-offers-text{
     padding: 20px 5px;
 
     font-family: Montserrat, sans-serif;
@@ -146,7 +146,7 @@ main{
 
     color: #000000;
 }
-.main1__scroll{
+.promo__scroll{
     position: absolute;
     width: 308px;
     height: 807px;
@@ -162,14 +162,14 @@ main{
 
 
 /*Second section*/
-.main2{
+.product{
     background:#FAE8E4;
     left: 0;
     top: 900px;
 }
 
 /*Third section*/
-.main3{
+.look{
     background: #EBE3D8;
     left: 0;
     top: 1800px;
