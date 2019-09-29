@@ -6,7 +6,7 @@ main{
 
     background: #FFFFFF;
 }
-.main1,
+.promo,
 .main2,
 .main3{
     position: absolute;
@@ -16,7 +16,7 @@ main{
 
 
 /*First section*/
-.main1{
+.promo{
     background: #FFFFFF;
 }
 .main1__black-rectangle{
@@ -28,7 +28,7 @@ main{
 
     background: #000000;
 }
-.main1_image{
+.promo_image{
     position: absolute;
     width: 549px;
     height: 562px;
@@ -75,7 +75,7 @@ main{
 
 }
 
-.main1__new-collection{
+.promo__new-collection{
     position: absolute;
     width: 491px;
     height: 459px;
@@ -83,7 +83,7 @@ main{
     top: 263px;
 }
 
-.main1__new-collection_title{
+.promo__new-collection_title{
     font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: bold;
