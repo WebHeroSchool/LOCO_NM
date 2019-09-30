@@ -2,7 +2,7 @@
 main{
     position: relative;
     width: 1440px;
-    height: 900px;
+    height: 700px;
 
     background: #FFFFFF;
 }
@@ -146,18 +146,86 @@ main{
 
     color: #000000;
 }
-.promo__scroll{
+
+.promo__scroll_lang-switcher{
     position: absolute;
-    width: 308px;
-    height: 807px;
+    width: 11px;
+    height: 5.5px;
     left: 426px;
     top: 54px;
 
-    border: 2px solid red;
 
 }
+.promo__scroll_rectangle9{
+    position: absolute;
+    width: 2.45px;
+    height: 8.21px;
+    left: 719.27px;
+    top: 826.5px;
 
+    background: #000000;
+    border-radius: 19px
 
+}
+.promo__scroll_rectangle8{
+    position: absolute;
+    width: 27px;
+    height: 46px;
+    left: 707px;
+    top: 815px;
+
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+
+}
+.promo__burger-menu{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 0;
+    top: 0;
+}
+.promo__burger-menu_img{
+    position: absolute;
+    width: 34.7px;
+    height: 12.91px;
+    left: 1376.25px;
+    top: 39.54px;
+    /*background: #000000;*/
+}
+.promo__burger-menu_rectangle{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    left: 1348px;
+    top: 0;
+
+    background: #000000;
+    opacity: 0.05;
+}
+.promo__social__insta{
+    position: absolute;
+    width: 42.98px;
+    height: 43px;
+    left: 52px;
+    top: 816px;
+
+}
+.promo__social__vk{
+    position: absolute;
+    width: 42.98px;
+    height: 43px;
+    left: 107.01px;
+    top: 816px;
+}
+.promo__social__fb{
+    position: absolute;
+    width: 42.98px;
+    height: 43px;
+    left: 162.02px;
+    top: 816px;
+}
 
 
 
