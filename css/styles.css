@@ -1,0 +1,141 @@
+/*Common classes*/
+body {
+    min-width: 375px;
+    font-family: Montserrat, Arial, sans-serif;
+}
+
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    min-height: 70px;
+
+    border: 2px solid red;
+}
+
+.header__logo-pic {
+    padding: 0 29px;
+    width: 98px;
+    height: 37px;
+}
+
+.header__lang-switcher {
+    display: none;
+}
+
+
+
+.header__menu {
+    display: flex;
+    align-self: flex-end;
+    width: 70px;
+    height: 70px;
+
+    background: #f5f5f3;
+    cursor: pointer;
+
+}
+
+.header__burger {
+    align-self: center;
+    margin: auto;
+}
+
+.header__burger-line {
+    display: block;
+    width: 26px;
+    height: 3px;
+
+    background: #000000;
+}
+
+.header__burger-line:first-of-type {
+    margin-bottom: 5px;
+}
+
+
+@media (min-width: 992px) {
+    .header {
+        min-height: 92px;
+    }
+}
+@media (min-width: 992px) {
+    .header__logo-wrap {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        min-width: 461px;
+
+        background: #000000;
+    }
+
+    .header__logo-pic {
+        display: flex;
+        align-items: center;
+        padding: 29px;
+        border: 2px solid red;
+
+    }
+
+    .header__lang-switcher {
+
+        display: flex;
+        justify-content: space-around;
+        /*flex-direction: row;*/
+        width: 100px;
+        align-self: center;
+        border: 2px solid red;
+
+        /*margin-right: 22px;*/
+        /*margin-top: 20px;*/
+    }
+
+    .header__lang-ru {
+        text-decoration: none;
+        cursor: pointer;
+        color: #FFFFFF;
+        font-weight: 500;
+        line-height: normal;
+        font-size: 20px;
+        border: 2px solid red;
+
+    }
+
+    .header__lang-vector {
+        /*top: 300px;*/
+        /*right: 100px;*/
+
+        display: block;
+        content: "";
+        width: 7px;
+        height: 6px;
+
+        border: 2px solid #FFFFFF;
+        border-right-color: transparent;
+        border-top-color: transparent;
+        transform: rotate(-44deg);
+
+
+    }
+}
+
+
+
+@media (min-width: 992px) {
+    .header__menu {
+        width: 92px;
+        height: 92px;
+    }
+
+    .header__burger-line:first-of-type {
+        margin-bottom: 5px;
+    }
+
+    .header__burger-line {
+        width: 35px;
+        height: 4px;
+    }
+}
+
+
