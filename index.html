@@ -2,27 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Loco Project</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <title>Loco Project</title>
 </head>
 <body>
-<header class="header">
-    <div class="header__logo-wrap">
-        <img src="images/logo.svg" alt="logo LOCO">
-        <div class="header__lang-switcher">
-            <a class="header__lang-link" href="#" title="Choose language">RU</a>
+    <header class="header">
+        <div class="header__logo-wrap">
+            <a class="header__logo-link" href="#">
+                <picture class="header__logo-pic">
+                    <source media="(min-width: 992px)" srcset="images/logo.svg">
+                    <img src="images/logo-mobile.svg" alt="LOCO logo">
+                </picture>
+            </a>
+            <div class="header__lang-switcher">
+                <a class="header__lang-ru">RU</a>
+            </div>
         </div>
-    </div>
-    <div class="header__menu">
-        <div class="header__burger">
-            <span class="header__burger-line"></span>
-            <span class="header__burger-line"></span>
+        <div class="header__menu">
+            <div class="header__burger">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </div>
         </div>
-    </div>
-</header>
-<main>
+    </header>
+
+    <main>
     <section class="promo">
         <div class="promo__wrap">
             <div class="promo__wrap-img">
