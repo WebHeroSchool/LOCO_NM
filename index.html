@@ -32,16 +32,17 @@
     <section class="promo">
         <div class="promo__wrap">
             <div class="promo__wrap-img">
-                    <img src="images/MainPic.png" alt="Main Picture">
+                <picture class="promo__img">
+                    <source media="(min-width: 768px)" srcset="images/MainPic.png">
+                    <img src="images/MainPic_mob.png" alt="Обложка">
+                </picture>
             </div>
             <div class="promo__wrap-text">
                 <h1 class="promo__title">Новая коллекция</h1>
-                <p class="promo__description  description">Бесплатная доставка включена. Предложение действует на сайте <a class="collection__link  collection__link_main" href="#" title="Перейти на наш сайт">loco.com</a> и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+                <p class="promo__description  description">Бесплатная доставка включена. Предложение действует на сайте <a class="promo__link  promo__link_main" href="#" title="Перейти на наш сайт">loco.com</a> и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
                 <div class="promo__buttons">
                     <a class="promo__link  button" href="#" title="Читать дальше">Читать дальше</a>
-                    <div class="promo__link">
-                        <a class="link" href="#" title="Посмотреть другие предложения">Другие предложения</a>
-                    </div>
+                    <a class="promo__link link" href="#" title="Посмотреть другие предложения">Другие предложения</a>
                 </div>
             </div>
         </div>
