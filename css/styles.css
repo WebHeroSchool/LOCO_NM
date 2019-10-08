@@ -233,6 +233,19 @@ body {
 .promo__social {
     display: none;
 }
+.promo__scroll {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    width: 28px;
+    height: 18px;
+    margin: auto;
+    background-image: url(../images/scroll-mob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
 
 @media (min-width: 768px) {
     .promo {
@@ -316,5 +329,22 @@ body {
         background-image: url(../images/arrow.svg);
         background-repeat: no-repeat;
         background-position: center;
+    }
+    .promo__social {
+        margin: 69px 69px 21px 12px;
+    }
+
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 153px;
+        list-style: none;
+    }
+
+    .promo__scroll {
+        bottom: 39px;
+        width: 27px;
+        height: 46px;
+        background-image: url(../images/scroll.svg);
     }
 }
