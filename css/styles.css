@@ -151,8 +151,6 @@ body {
         width: 50px;
         align-self: center;
         padding: 12px 22px 0 0;
-        /*margin-right: 22px;
-        margin-bottom: 10px;*/
     }
 
     .header__lang-ru {
@@ -207,7 +205,6 @@ body {
 }
 .promo__wrap-img {
     z-index: -10;
-
     height: 529px;
     overflow: hidden;
 }
@@ -222,7 +219,6 @@ body {
     z-index: 10;
     padding-left: 26px;
     margin-top: -165px;
-
     font-weight: bold;
     line-height: 51px;
     font-size: 50px;
