@@ -52,7 +52,7 @@ body {
     line-height: 28px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .description {
         line-height: 21px;
         font-size: 15px;
@@ -129,7 +129,7 @@ body {
     margin-bottom: 5px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .header {
         min-height: 92px;
     }
@@ -243,7 +243,7 @@ body {
     cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1024px) {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
     }
