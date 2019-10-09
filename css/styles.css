@@ -132,6 +132,8 @@ body {
 @media (min-width: 1024px) {
     .header {
         min-height: 92px;
+
+        border: 2px solid red;
     }
     .header__logo-wrap {
         display: flex;
@@ -215,12 +217,12 @@ body {
     object-position: 0 -55px;
 }
 .promo__title {
-    position: relative;
-    z-index: 10;
-    padding-left: 26px;
-    margin-top: -165px;
-    font-weight: bold;
-    line-height: 51px;
+    /*position: relative;*/
+    /*z-index: 10;*/
+    /*padding-left: 26px;*/
+    /*margin-top: -165px;*/
+    /*font-weight: bold;*/
+    /*line-height: 51px;*/
     font-size: 50px;
 }
 
@@ -246,18 +248,25 @@ body {
 @media (min-width: 1024px) {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
+        border: 2px solid red;
     }
 
     .promo__wrap {
+        height: 716px;
         display: flex;
-        justify-content: center;
+        /*justify-content: space-evenly;*/
         align-items: center;
-        padding: 0 40px;
+        border: 2px solid red;
+
     }
     .promo__wrap-img {
         z-index: 10;
         height: 562px;
-        padding: 77px 0 0 15px;
+        width: 735px;
+        display: flex;
+        justify-content: flex-end;
+        border: 2px solid red;
+
     }
 
     .promo__img img {
@@ -266,30 +275,51 @@ body {
         object-position: 50% 50%;
     }
     .promo__wrap-text {
-        width: 475px;
-        margin-left: 45px;
+        height: 562px;
+        width: 705px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /*margin-left: 45px;*/
+        border: 2px solid red;
+    }
+
+    .promo__text{
+        width: 593px;
+        height: 397px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        border: 2px solid red;
+
     }
 
     .promo__title {
-        padding-left: 10px;
-        margin-top: 108px;
-        margin-bottom: 2px;
+        /*padding-left: 10px;*/
+        /*margin-top: 108px;*/
+        /*margin-bottom: 2px;*/
         width: 475px;
         height: 164px;
+        border: 2px solid red;
 
         font-weight: bold;
         line-height: 82px;
         font-size: 80px;
+        text-align: left;
     }
 
     .promo__description,
     .promo__link,
     .promo__social {
         display: inline-block;
+        border: 2px solid red;
     }
 
     .promo__description {
-        padding-left: 9px;
+        /*padding-left: 9px;*/
+        width: 467px;
+        border: 2px solid red;
     }
 
     .promo__link {
@@ -302,8 +332,9 @@ body {
         display: flex;
         justify-content: space-between;
         width: 490px;
-        padding-left: 5px;
-        margin-top: 23px;
+        /*padding-left: 5px;*/
+        /*margin-top: 23px;*/
+        border: 2px solid red;
     }
 
     .promo__link.link {
@@ -327,7 +358,10 @@ body {
         background-position: center;
     }
     .promo__social {
-        margin: 69px 69px 21px 12px;
+        /*margin: 69px 69px 21px 12px;*/
+        height: 92px;
+        width: 100%;
+        border: 2px solid red;
     }
 
     .social {
