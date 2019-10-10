@@ -217,7 +217,7 @@ body {
     object-position: 0 -55px;
 }
 .promo__title {
-    /*position: relative;*/
+    position: relative;
     /*z-index: 10;*/
     /*padding-left: 26px;*/
     /*margin-top: -165px;*/
