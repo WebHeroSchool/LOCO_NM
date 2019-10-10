@@ -285,7 +285,7 @@ body {
     }
 
     .promo__text{
-        width: 593px;
+        width: 555px;
         height: 397px;
         display: flex;
         flex-direction: column;
@@ -396,5 +396,11 @@ body {
         /*width: 27px;*/
         height: 46px;
         background-image: url(../images/scroll.svg);
+    }
+}
+
+@media (min-width: 1250px) {
+        .promo__text{
+        width: 593px;
     }
 }
