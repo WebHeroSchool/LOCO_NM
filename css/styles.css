@@ -217,12 +217,12 @@ body {
     object-position: 0 -55px;
 }
 .promo__title {
-    /*position: relative;*/
-    /*z-index: 10;*/
+    position: relative;
+    z-index: 10;
     /*padding-left: 26px;*/
     /*margin-top: -165px;*/
-    /*font-weight: bold;*/
-    /*line-height: 51px;*/
+    font-weight: bold;
+    line-height: 51px;
     font-size: 50px;
 }
 
@@ -232,23 +232,23 @@ body {
     display: none;
 }
 .promo__scroll {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: -40px;
-    width: 28px;
-    height: 18px;
-    margin: auto;
-    background-image: url(../images/scroll-mob.svg);
-    background-repeat: no-repeat;
-    background-position: center;
-    cursor: pointer;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*bottom: -40px;*/
+    /*width: 28px;*/
+    /*height: 18px;*/
+    margin: 25px 10px;
+    /*background-image: url(../images/scroll-mob.svg);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center;*/
+    /*cursor: pointer;*/
 }
 
 @media (min-width: 1024px) {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
-        border: 2px solid red;
+        border: 2px solid blue;
     }
 
     .promo__wrap {
@@ -313,6 +313,7 @@ body {
     .promo__link,
     .promo__social {
         display: inline-block;
+        /*display: flex;*/
         border: 2px solid red;
     }
 
@@ -359,9 +360,20 @@ body {
     }
     .promo__social {
         /*margin: 69px 69px 21px 12px;*/
+        display: flex;
         height: 92px;
         width: 100%;
+        /*width: 735px;*/
+        /*width: 51%;*/
         border: 2px solid red;
+    }
+    .promo__social-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 51%;
+        border: 2px solid red;
+
     }
 
     .social {
@@ -372,6 +384,8 @@ body {
     }
 
     .promo__scroll {
+        display: flex;
+        align-self: flex-end;
         bottom: 39px;
         width: 27px;
         height: 46px;
@@ -380,7 +394,7 @@ body {
 }
 
 @media (min-width: 1250px) {
-        .promo__text{
+    .promo__text{
         width: 593px;
     }
 }
