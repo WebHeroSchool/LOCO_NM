@@ -1,6 +1,7 @@
 /*Common classes*/
 body {
-    min-width: 320px;
+    /*min-width: 320px;*/
+    min-width: 375px;
     font-family: Montserrat, Arial, sans-serif;
 }
 .description {
@@ -213,7 +214,7 @@ body {
 .promo__title {
     /*position: relative;*/
     z-index: 10;
-    /*padding-left: 26px;*/
+    padding-left: 26px;
     margin-top: -165px;
     font-weight: bold;
     line-height: 51px;
@@ -367,6 +368,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         width: 461px;
+        /*width: 707px;*/
         border: 2px solid red;
     }
     .social {
@@ -396,6 +398,7 @@ body {
         flex-direction: row;
         justify-content: space-between;
         width: calc(100% - 735px);
+        /*width: calc(100% - 461px);*/
         border: 2px solid red;
 
     }
