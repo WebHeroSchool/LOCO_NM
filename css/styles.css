@@ -239,7 +239,7 @@ body {
     bottom: -40px;
     width: 28px;
     height: 18px;
-    margin: 25px 10px;
+    margin: 25px 0;
     background-image: url(../images/scroll-mob.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -375,12 +375,20 @@ body {
         width: 153px;
         list-style: none;
     }
+    .scroll{
+        display: flex;
+        /*align-self: flex-end;*/
+        justify-content: flex-end;
+        width: 274px;
+    }
     .promo__scroll {
         display: flex;
-        align-self: flex-end;
+        /*align-self: flex-end;*/
+        justify-content: flex-end;
         bottom: 39px;
-        width: 274px;
+        /*width: 274px;*/
         height: 46px;
+        /*margin: 0;*/
         background-image: url(../images/scroll.svg);
     }
     .promo__social-content2{
