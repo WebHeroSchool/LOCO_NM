@@ -196,60 +196,69 @@ body {
 /* First(promo) section */
 
 .promo {
-    position: relative;
+    display:flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
     width: 100%;
+    height: 530px;
+    border: 2px solid red;
 }
+
 .promo__wrap-img {
     z-index: -10;
     height: 529px;
-    overflow: hidden;
+    border: 2px solid green;
 }
+
 .promo__img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: 0 -55px;
 }
+
 .promo__title {
     position: relative;
     z-index: 10;
     padding-left: 26px;
     margin-top: -165px;
+    margin-bottom: 20px;
     font-weight: bold;
     line-height: 51px;
     font-size: 50px;
+    border: 2px solid red
 }
 
 .promo__description,
-.promo__link,
-.promo__social {
+.promo__link, .promo__social-content
+/*.promo__social*/ {
     display: none;
 }
+
+.promo__social {
+    display: flex;
+    justify-content: center;
+    border: 2px solid blue
+}
+
 .promo__scroll {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*bottom: -40px;*/
-    /*width: 28px;*/
-    /*height: 18px;*/
-    margin: 25px 10px;
+    width: 28px;
+    height: 18px;
     background-image: url(../images/scroll-mob.svg);
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
+    border: 2px solid orange;
 }
 
 @media (min-width: 1024px) {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
         border: 2px solid blue;
-    }
+            }
     .promo__wrap {
         height: 716px;
         display: flex;
-        /*justify-content: space-evenly;*/
         align-items: center;
         border: 2px solid red;
 
@@ -262,6 +271,7 @@ body {
         display: flex;
         justify-content: flex-end;
         border: 2px solid red;
+
 
     }
     .promo__img img {
