@@ -222,18 +222,19 @@ body {
 
 .promo__description,
 .promo__link,
-.promo__social {
+.promo__social-content1,
+.promo__social-content2{
     display: none;
 }
 .promo__scroll {
     /*display: flex;*/
     /*flex-direction: column;*/
     /*position: absolute;*/
-    /*left: 0;*/
-    /*right: 0;*/
-    /*bottom: -40px;*/
-    /*width: 28px;*/
-    /*height: 18px;*/
+    left: 0;
+    right: 0;
+    bottom: -40px;
+    width: 28px;
+    height: 18px;
     margin: 25px 10px;
     background-image: url(../images/scroll-mob.svg);
     background-repeat: no-repeat;
@@ -355,13 +356,12 @@ body {
         /*width: 51%;*/
         border: 2px solid red;
     }
-    .promo__social-content{
+    .promo__social-content1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: 51%;
+        width: 461px;
         border: 2px solid red;
-
     }
     .social {
         display: flex;
@@ -373,9 +373,17 @@ body {
         display: flex;
         align-self: flex-end;
         bottom: 39px;
-        width: 27px;
+        width: 274px;
         height: 46px;
         background-image: url(../images/scroll.svg);
+    }
+    .promo__social-content2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 461px;
+        border: 2px solid red;
+
     }
 }
 
