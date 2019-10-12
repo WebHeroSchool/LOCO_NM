@@ -225,11 +225,10 @@ body {
 .promo__link,
 .promo__social-content1,
 .promo__social-content2{
-    display: none;
+    /* display: none; */
 }
 .promo__social{
     display: flex;
-    justify-content: center;
 }
 .promo__scroll {
     /*display: flex;*/
@@ -317,9 +316,8 @@ body {
     .promo__link,
 
     .promo__social {
-        display: inline-block;
-
-        /*border: 2px solid red;*/
+        flex: 1;
+        display: flex;
     }
     .promo__description {
         padding-left: 9px;
@@ -362,21 +360,16 @@ body {
     }
     .promo__social {
         /*margin: 69px 69px 21px 12px;*/
-        display: flex;
-        height: 92px;
+        /* display: flex; */
+        /* height: 92px; */
         /*width: 100%;*/
         /*width: 735px;*/
         /*width: 51%;*/
 
         /*border: 2px solid red;*/
     }
-    .promo__social-content1{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 461px;
-
-        /*border: 2px solid red;*/
+    .promo__social-content1 {
+        flex: 1;
     }
     .social {
         display: flex;
@@ -385,10 +378,8 @@ body {
         list-style: none;
     }
     .scroll{
+        flex: 1;
         display: flex;
-        /*align-self: flex-end;*/
-        justify-content: flex-end;
-        width: 274px;
     }
     .promo__scroll {
         display: flex;
