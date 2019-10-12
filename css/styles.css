@@ -1,6 +1,7 @@
 /*Common classes*/
 body {
-    min-width: 320px;
+    /*min-width: 320px;*/
+    min-width: 375px;
     font-family: Montserrat, Arial, sans-serif;
 }
 .description {
@@ -127,7 +128,7 @@ body {
     .header {
         min-height: 92px;
 
-        border: 2px solid red;
+        /*border: 2px solid red;*/
     }
     .header__logo-wrap {
         display: flex;
@@ -213,7 +214,7 @@ body {
 .promo__title {
     /*position: relative;*/
     z-index: 10;
-    /*padding-left: 26px;*/
+    padding-left: 26px;
     margin-top: -165px;
     font-weight: bold;
     line-height: 51px;
@@ -250,15 +251,16 @@ body {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
         height: 808px;
-        border: 2px solid blue;
+
+        /*border: 2px solid blue;*/
 
     }
     .promo__wrap {
         height: 716px;
         display: flex;
-        /*justify-content: space-evenly;*/
         align-items: center;
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
 
     }
 
@@ -268,7 +270,8 @@ body {
         width: 735px;
         display: flex;
         justify-content: flex-end;
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
 
     }
     .promo__img img {
@@ -283,7 +286,8 @@ body {
         align-items: center;
         justify-content: center;
         /*margin-left: 45px;*/
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .promo__text{
         width: 555px;
@@ -292,7 +296,8 @@ body {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
 
     }
     .promo__title {
@@ -301,25 +306,26 @@ body {
         /*margin-bottom: 2px;*/
         width: 475px;
         height: 164px;
-        border: 2px solid red;
-
         font-weight: bold;
         line-height: 82px;
         font-size: 80px;
         text-align: left;
+
+        /*border: 2px solid red;*/
     }
     .promo__description,
     .promo__link,
 
     .promo__social {
         display: inline-block;
-        /*display: flex;*/
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .promo__description {
-        /*padding-left: 9px;*/
+        padding-left: 9px;
         width: 467px;
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .promo__link {
         text-decoration: none;
@@ -332,7 +338,8 @@ body {
         width: 490px;
         /*padding-left: 5px;*/
         /*margin-top: 23px;*/
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .promo__link.link {
         position: relative;
@@ -357,17 +364,19 @@ body {
         /*margin: 69px 69px 21px 12px;*/
         display: flex;
         height: 92px;
-        width: 100%;
+        /*width: 100%;*/
         /*width: 735px;*/
         /*width: 51%;*/
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .promo__social-content1{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         width: 461px;
-        border: 2px solid red;
+
+        /*border: 2px solid red;*/
     }
     .social {
         display: flex;
@@ -395,8 +404,10 @@ body {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        width: calc(100% - 735px);
-        border: 2px solid red;
+        width: 705px;
+        /*width: calc(100% - 461px);*/
+
+        /*border: 2px solid red;*/
 
     }
 }
