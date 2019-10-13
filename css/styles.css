@@ -223,12 +223,12 @@ body {
 
 .promo__description,
 .promo__link,
-.promo__social-content1,
-.promo__social-content2{
+.promo__social-content1{
     display: none;
 }
 .promo__social{
     display: flex;
+    /*flex: 1;*/
     justify-content: center;
 }
 .promo__scroll {
@@ -313,6 +313,7 @@ body {
 
         /*border: 2px solid red;*/
     }
+
     .promo__description,
     .promo__link,
 
@@ -363,18 +364,20 @@ body {
     .promo__social {
         /*margin: 69px 69px 21px 12px;*/
         display: flex;
-        height: 92px;
+        flex: 1;
+        /*height: 92px;*/
         /*width: 100%;*/
-        /*width: 735px;*/
+        width: 735px;
         /*width: 51%;*/
 
         /*border: 2px solid red;*/
     }
     .promo__social-content1{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 461px;
+        /*flex-direction: row;*/
+        /*!*justify-content: space-between;*!*/
+        /*width: 461px;*/
+        flex: 1;
 
         /*border: 2px solid red;*/
     }
@@ -385,31 +388,32 @@ body {
         list-style: none;
     }
     .scroll{
+        flex: 1;
         display: flex;
         /*align-self: flex-end;*/
         justify-content: flex-end;
-        width: 274px;
+        width: 200px;
     }
     .promo__scroll {
         display: flex;
         /*align-self: flex-end;*/
-        justify-content: flex-end;
+        /*justify-content: flex-end;*/
         bottom: 39px;
         /*width: 274px;*/
         height: 46px;
         /*margin: 0;*/
         background-image: url(../images/scroll.svg);
     }
-    .promo__social-content2{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        width: 705px;
-        /*width: calc(100% - 461px);*/
+    /*.promo__social-content2{*/
+    /*    display: flex;*/
+    /*    flex-direction: row;*/
+    /*    justify-content: space-between;*/
+    /*    width: 705px;*/
+    /*    !*width: calc(100% - 461px);*!*/
 
-        /*border: 2px solid red;*/
+    /*    !*border: 2px solid red;*!*/
 
-    }
+    /*}*/
 }
 
 @media (min-width: 1250px) {
