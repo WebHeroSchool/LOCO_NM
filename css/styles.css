@@ -141,7 +141,7 @@ body {
     .header {
         min-height: 92px;
     }
-  
+
     .header__logo-wrap {
         display: flex;
         justify-content: space-between;
@@ -271,7 +271,7 @@ body {
     .promo__social-mob {
         display: none;
     }
-  
+
     .promo__wrap-img {
         background-image: url(../images/MainPic.png);
         background-repeat: no-repeat;
@@ -286,7 +286,7 @@ body {
         height: 562px;
         object-position: 50% 50%;
         }*/
-    
+
     .promo__text {
         width: 555px;
         height: 397px;
@@ -307,16 +307,12 @@ body {
         font-size: 80px;
         text-align: left;
         /*background-color: white;*/
-         
+
     }
     .promo__description,
     .promo__link,
     .promo__social {
         display: inline-block;
-<<<<<<< HEAD
-        border: 2px solid red;
-=======
->>>>>>> a25868d78f82f30adb8e25533f81230e30b71380
     }
 
     .promo__description {
@@ -357,11 +353,11 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
-    
+
     .promo__social {
         display: flex;
     }
-    
+
     .promo__social-content1{
         display: flex;
         flex: 1;
@@ -396,4 +392,3 @@ body {
         width: 593px;
     }
 }
-
