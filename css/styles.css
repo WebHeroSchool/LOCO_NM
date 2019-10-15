@@ -279,6 +279,7 @@ body {
         height: 562px;
         width: 735px;
         background-position: right;
+        flex: 1;
     }
 
     /*.promo__img img {
@@ -295,6 +296,7 @@ body {
         align-items: flex-start;
         justify-content: space-between;
         padding: 0 44px;
+        flex: 1;
     }
 
        .promo__title {
