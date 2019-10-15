@@ -1,6 +1,5 @@
 /*Common classes*/
 body {
-    /*min-width: 320px;*/
     min-width: 375px;
     font-family: Montserrat, Arial, sans-serif;
 }
@@ -127,8 +126,6 @@ body {
 @media (min-width: 1024px) {
     .header {
         min-height: 92px;
-
-        /*border: 2px solid red;*/
     }
     .header__logo-wrap {
         display: flex;
@@ -136,20 +133,16 @@ body {
         min-width: 461px;
         background: #000;
     }
-
     .header__logo-pic {
         padding: 42px 0 0 55px;
     }
-
     .header__lang-switcher {
-
         position: relative;
         display: block;
         width: 50px;
         align-self: center;
         padding: 12px 22px 0 0;
     }
-
     .header__lang-ru {
         text-decoration: none;
         cursor: pointer;
@@ -157,9 +150,7 @@ body {
         font-weight: 500;
         line-height: normal;
         font-size: 20px
-
     }
-
     .header__lang-ru::after {
         position: absolute;
         top: 20px;
@@ -182,11 +173,9 @@ body {
         height: 92px;
         margin-right: 0;
     }
-
     .header__burger-line:first-of-type {
         margin-bottom: 5px;
     }
-
     .header__burger-line {
         width: 35px;
         height: 4px;
@@ -197,7 +186,6 @@ body {
 /* First(promo) section */
 
 .promo {
-    /*position: relative;*/
     width: 100%;
 }
 .promo__wrap-img {
@@ -212,7 +200,6 @@ body {
     object-position: 0 -55px;
 }
 .promo__title {
-    /*position: relative;*/
     z-index: 10;
     padding-left: 26px;
     margin-top: -165px;
@@ -228,13 +215,10 @@ body {
 }
 .promo__social{
     display: flex;
-    /*flex: 1;*/
+    flex: 1;
     justify-content: center;
 }
 .promo__scroll {
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*position: absolute;*/
     left: 0;
     right: 0;
     bottom: -40px;
@@ -246,33 +230,32 @@ body {
     background-position: center;
     cursor: pointer;
 }
+.promo__social-content1{
+    flex: 1;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 153px;
+    list-style: none;
+}
 
 @media (min-width: 1024px) {
     .promo {
         background: linear-gradient(to right, #000 461px, #FFF 461px);
         height: 808px;
-
-        /*border: 2px solid blue;*/
-
     }
     .promo__wrap {
         height: 716px;
         display: flex;
         align-items: center;
-
-        /*border: 2px solid red;*/
-
     }
-
     .promo__wrap-img {
         z-index: 10;
         height: 562px;
         width: 735px;
         display: flex;
         justify-content: flex-end;
-
-        /*border: 2px solid red;*/
-
     }
     .promo__img img {
         width: 549px;
@@ -285,9 +268,6 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        /*margin-left: 45px;*/
-
-        /*border: 2px solid red;*/
     }
     .promo__text{
         width: 555px;
@@ -296,37 +276,24 @@ body {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-
-        /*border: 2px solid red;*/
-
     }
     .promo__title {
-        /*padding-left: 10px;*/
         margin-top: 0;
-        /*margin-bottom: 2px;*/
         width: 475px;
         height: 164px;
         font-weight: bold;
         line-height: 82px;
         font-size: 80px;
         text-align: left;
-
-        /*border: 2px solid red;*/
     }
-
     .promo__description,
     .promo__link,
-
     .promo__social {
         display: inline-block;
-
-        /*border: 2px solid red;*/
     }
     .promo__description {
         padding-left: 9px;
         width: 467px;
-
-        /*border: 2px solid red;*/
     }
     .promo__link {
         text-decoration: none;
@@ -337,11 +304,7 @@ body {
         display: flex;
         justify-content: space-between;
         width: 490px;
-        /*padding-left: 5px;*/
-        /*margin-top: 23px;*/
-
-        /*border: 2px solid red;*/
-    }
+         }
     .promo__link.link {
         position: relative;
         width: 232px;
@@ -362,24 +325,11 @@ body {
         background-position: center;
     }
     .promo__social {
-        /*margin: 69px 69px 21px 12px;*/
         display: flex;
-        flex: 1;
-        /*height: 92px;*/
-        /*width: 100%;*/
-        width: 735px;
-        /*width: 51%;*/
-
-        /*border: 2px solid red;*/
     }
     .promo__social-content1{
         display: flex;
-        /*flex-direction: row;*/
-        /*!*justify-content: space-between;*!*/
-        /*width: 461px;*/
         flex: 1;
-
-        /*border: 2px solid red;*/
     }
     .social {
         display: flex;
@@ -390,30 +340,14 @@ body {
     .scroll{
         flex: 1;
         display: flex;
-        /*align-self: flex-end;*/
-        justify-content: flex-end;
-        width: 200px;
     }
     .promo__scroll {
         display: flex;
-        /*align-self: flex-end;*/
-        /*justify-content: flex-end;*/
+        justify-content: flex-end;
         bottom: 39px;
-        /*width: 274px;*/
         height: 46px;
-        /*margin: 0;*/
         background-image: url(../images/scroll.svg);
     }
-    /*.promo__social-content2{*/
-    /*    display: flex;*/
-    /*    flex-direction: row;*/
-    /*    justify-content: space-between;*/
-    /*    width: 705px;*/
-    /*    !*width: calc(100% - 461px);*!*/
-
-    /*    !*border: 2px solid red;*!*/
-
-    /*}*/
 }
 
 @media (min-width: 1250px) {
