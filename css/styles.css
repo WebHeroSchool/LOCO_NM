@@ -140,28 +140,24 @@ body {
 @media (min-width: 992px) {
     .header {
         min-height: 92px;
-
     }
+  
     .header__logo-wrap {
         display: flex;
         justify-content: space-between;
         min-width: 461px;
         background: #000;
     }
-
     .header__logo-pic {
         padding: 42px 0 0 55px;
     }
-
     .header__lang-switcher {
-
         position: relative;
         display: block;
         width: 50px;
         align-self: center;
         padding: 12px 22px 0 0;
     }
-
     .header__lang-ru {
         text-decoration: none;
         cursor: pointer;
@@ -170,7 +166,6 @@ body {
         line-height: normal;
         font-size: 20px
     }
-
     .header__lang-ru::after {
         position: absolute;
         top: 20px;
@@ -192,11 +187,9 @@ body {
         height: 92px;
         margin-right: 0;
     }
-
     .header__burger-line:first-of-type {
         margin-bottom: 5px;
     }
-
     .header__burger-line {
         width: 35px;
         height: 4px;
@@ -248,6 +241,15 @@ body {
     align-self: center;
     cursor: pointer;
 }
+.promo__social-content1{
+    flex: 1;
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    width: 153px;
+    list-style: none;
+}
 
 @media (min-width: 992px) {
     .promo {
@@ -269,7 +271,7 @@ body {
     .promo__social-mob {
         display: none;
     }
-
+  
     .promo__wrap-img {
         background-image: url(../images/MainPic.png);
         background-repeat: no-repeat;
@@ -305,11 +307,10 @@ body {
         font-size: 80px;
         text-align: left;
         /*background-color: white;*/
+         
     }
-
     .promo__description,
     .promo__link,
-
     .promo__social {
         display: inline-block;
     }
