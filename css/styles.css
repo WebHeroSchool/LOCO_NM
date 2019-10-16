@@ -1,6 +1,7 @@
 /*Common classes*/
 body {
     min-width: 375px;
+    max-width: 1440px;
     font-family: Montserrat, Arial, sans-serif;
 }
 
@@ -281,12 +282,6 @@ body {
         background-position: right;
     }
 
-    /*.promo__img img {
-        width: 549px;
-        height: 562px;
-        object-position: 50% 50%;
-        }*/
-
     .promo__text {
         width: 555px;
         height: 397px;
@@ -306,7 +301,6 @@ body {
         line-height: 82px;
         font-size: 80px;
         text-align: left;
-        /*background-color: white;*/
 
     }
     .promo__description,
@@ -318,7 +312,6 @@ body {
     .promo__description {
         padding-left: 9px;
         width: 467px;
-        /*background-color: white;*/
         opacity: 1;
     }
 
@@ -332,7 +325,6 @@ body {
         display: flex;
         justify-content: space-between;
         width: 490px;
-        /*background-color: white;*/
     }
 
     .promo__link.link {
@@ -386,8 +378,8 @@ body {
     }
 }
 
-/*@media (min-width: 1250px) {
-    .promo__text{
-        width: 593px;
+@media (min-width: 520px ) and (max-width: 991px) {
+    .promo__title {
+        text-align: center;
     }
 }
