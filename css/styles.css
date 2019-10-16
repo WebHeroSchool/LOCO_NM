@@ -1,6 +1,7 @@
 /*Common classes*/
 body {
     min-width: 375px;
+    max-width: 1440px;
     font-family: Montserrat, Arial, sans-serif;
 }
 
@@ -25,9 +26,10 @@ body {
     background: none;
     width: 203px;
     height: 30px;
-    padding-top: 14px;
+    /*padding-top: 14px;*/
     border: 2px solid #000;
     text-align: center;
+    line-height: 2.5em;
 }
 
 .title {
@@ -206,11 +208,11 @@ body {
     background-image: url(../images/MainPic_mob.png);
     background-repeat: no-repeat;
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     background-size: cover;
     background-position: 0 -55px;
     height: 529px;
-        display: flex;
+    display: flex;
     flex-flow: column;
     justify-content:flex-end;
 }
@@ -281,12 +283,6 @@ body {
         background-position: right;
     }
 
-    /*.promo__img img {
-        width: 549px;
-        height: 562px;
-        object-position: 50% 50%;
-        }*/
-
     .promo__text {
         width: 555px;
         height: 397px;
@@ -306,7 +302,6 @@ body {
         line-height: 82px;
         font-size: 80px;
         text-align: left;
-        /*background-color: white;*/
 
     }
     .promo__description,
@@ -318,7 +313,6 @@ body {
     .promo__description {
         padding-left: 9px;
         width: 467px;
-        /*background-color: white;*/
         opacity: 1;
     }
 
@@ -332,19 +326,19 @@ body {
         display: flex;
         justify-content: space-between;
         width: 490px;
-        /*background-color: white;*/
     }
 
     .promo__link.link {
         position: relative;
         width: 232px;
-        padding-top: 14px;
+        /*padding-top: 14px;*/
+        line-height: 3.5em;
     }
 
     .promo__link.link::after {
         position: absolute;
         top: 17px;
-        right: -3px;
+        right: 0;
         display: block;
         content: "";
         width: 44px;
@@ -386,8 +380,8 @@ body {
     }
 }
 
-/*@media (min-width: 1250px) {
-    .promo__text{
-        width: 593px;
+@media (min-width: 520px ) and (max-width: 991px) {
+    .promo__title {
+        text-align: center;
     }
 }
