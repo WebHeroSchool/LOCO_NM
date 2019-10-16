@@ -296,7 +296,7 @@ body {
         flex-direction: column;
         align-items: flex-start;
         justify-content: space-between;
-        padding: 0 20px;
+        padding: 0 30px;
     }
 
        .promo__title {
@@ -317,7 +317,7 @@ body {
     }
 
     .promo__description {
-        padding-left: 9px;
+        /*padding-left: 9px;*/
         width: 467px;
         opacity: 1;
     }
