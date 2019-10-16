@@ -25,11 +25,10 @@ body {
 .button {
     background: none;
     width: 203px;
-    height: 30px;
     /*padding-top: 14px;*/
     border: 2px solid #000;
     text-align: center;
-    line-height: 2.5em;
+    line-height: 3.5em;
 }
 
 .title {
@@ -150,9 +149,11 @@ body {
         min-width: 461px;
         background: #000;
     }
+
     .header__logo-pic {
         padding: 42px 0 0 55px;
     }
+
     .header__lang-switcher {
         position: relative;
         display: block;
@@ -160,6 +161,7 @@ body {
         align-self: center;
         padding: 14px 20px 0 0;
     }
+
     .header__lang-ru {
         text-decoration: none;
         cursor: pointer;
@@ -168,6 +170,7 @@ body {
         line-height: normal;
         font-size: 20px
     }
+
     .header__lang-ru::after {
         position: absolute;
         top: 20px;
@@ -189,9 +192,11 @@ body {
         height: 92px;
         margin-right: 0;
     }
+
     .header__burger-line:first-of-type {
         margin-bottom: 5px;
     }
+
     .header__burger-line {
         width: 35px;
         height: 4px;
@@ -246,6 +251,7 @@ body {
 .promo__social-content1{
     flex: 1;
 }
+
 .social{
     display: flex;
     justify-content: space-between;
