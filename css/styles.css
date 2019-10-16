@@ -26,9 +26,10 @@ body {
     background: none;
     width: 203px;
     height: 30px;
-    padding-top: 14px;
+    /*padding-top: 14px;*/
     border: 2px solid #000;
     text-align: center;
+    line-height: 2.5em;
 }
 
 .title {
@@ -337,7 +338,7 @@ body {
     .promo__link.link::after {
         position: absolute;
         top: 17px;
-        right: -3px;
+        right: 0;
         display: block;
         content: "";
         width: 44px;
