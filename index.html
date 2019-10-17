@@ -2,17 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Loco Project</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <link rel="stylesheet" href="css/normalize.css">    
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/fonts.css">
+    <title>Loco Project</title>
 </head>
 <body>
 <header class="header">
     <div class="header__logo-wrap">
-        <img src="images/logo.svg" alt="logo LOCO">
+        <a class="header__logo-link" href="#">
+            <picture class="header__logo-pic">
+                <source media="(min-width: 992px)" srcset="images/logo.svg">
+                <img src="images/logo-mobile.svg" alt="LOCO logo">
+            </picture>
+        </a>
         <div class="header__lang-switcher">
-            <a class="header__lang-link" href="#" title="Choose language">RU</a>
+            <a class="header__lang-ru">RU</a>
         </div>
     </div>
     <div class="header__menu">
@@ -25,41 +31,44 @@
 <main>
     <section class="promo">
         <div class="promo__wrap">
-            <div class="promo__wrap-img">
-                    <img src="images/MainPic.png" alt="Main Picture">
-            </div>
-            <div class="promo__wrap-text">
-                <h1 class="promo__title">Новая коллекция</h1>
-                <p class="promo__description  description">Бесплатная доставка включена. Предложение действует на сайте <a class="collection__link  collection__link_main" href="#" title="Перейти на наш сайт">loco.com</a> и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
+            <div class="promo__wrap-img"></div>
+            <div class="promo__text">
+                <div class="promo__title">Новая коллекция</div>
+                <p class="promo__description  description">Бесплатная доставка включена. Предложение действует на сайте <a class="promo__link  promo__link_main" href="#" title="Перейти на наш сайт">loco.com</a> и в магазинах до 18.09.2018. Для получения скидки в магазинах предъявите скриншот данного предложения. В магазинах предложение не суммируется с другими акциями, предложениями и распродажей.</p>
                 <div class="promo__buttons">
                     <a class="promo__link  button" href="#" title="Читать дальше">Читать дальше</a>
-                    <div class="promo__link">
-                        <a class="link" href="#" title="Посмотреть другие предложения">Другие предложения</a>
-                    </div>
+                    <a class="promo__link link" href="#" title="Посмотреть другие предложения">Другие предложения</a>
                 </div>
             </div>
+            <div class="promo__social-mob"></div>
         </div>
+
         <div class="promo__social">
-            <ul class="promo__social-list  social">
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__link-instagram" src="images/INST.svg" alt="Instagram">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__link-vkontakte" src="images/VK.svg"  alt=" V Kontakte">
-                    </a>
-                </li>
-                <li class="social__item">
-                    <a class="social__link" href="#">
-                        <img class="social__link-facebook" src="images/FB.svg" alt="Facebook">
-                    </a>
-                </li>
-            </ul>
+            <div class="promo__social-content1">
+                <ul class="promo__social-list  social">
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__link-instagram" src="images/INST.svg" alt="Instagram">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__link-vkontakte" src="images/VK.svg"  alt=" V Kontakte">
+                        </a>
+                    </li>
+                    <li class="social__item">
+                        <a class="social__link" href="#">
+                            <img class="social__link-facebook" src="images/FB.svg" alt="Facebook">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="scroll">
+                <div class="promo__scroll"></div>
+            </div>
         </div>
     </section>
-    <section class="product">
+    <!--<section class="product">
         <div class="product__wrap">
             <div class="product__wrap-img">
                 <img class="product__img-grey" src="images/grey-bag.png" alt="Grey bag">
@@ -118,7 +127,7 @@
             <p class="look__created-txt">РАЗРАБОТАНО В</p>
             <img class="look__created-img" src="images/logo-whs.png" alt="created-by">
         </footer>
-    </section>
+         </section>-->
 </main>
 </body>
 </html>
