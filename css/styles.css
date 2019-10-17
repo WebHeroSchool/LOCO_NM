@@ -399,6 +399,33 @@ body {
         text-align: center;
     }
 }
+/*Second (product) section*/
+.product{
+    background: #FAE8E4;
+    border: 2px solid darkred;
+}
+.product__wrap{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+}
+.product__wrap-img{
+    border: 2px solid deeppink;
+}
+.product__wrap-text{
+    display: flex;
+    flex-flow: column wrap;
+    border: 2px solid blue;
+}
+.product__container{
+    width: 488px;
+    height: 556px;
+    background: #FFFFFF;
+    border: 2px solid darkgreen;
+}
+.product__link{
+    border: 2px solid purple;
+}
 
 /* Third(look) section */
 
