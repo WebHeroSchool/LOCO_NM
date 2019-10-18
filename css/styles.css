@@ -25,7 +25,6 @@ body {
 
 .button {
     background: none;
-    width: 203px;
 }
 
 .title {
@@ -341,6 +340,7 @@ body {
         border: 1.5px solid #000;
         text-align: center;
         line-height: 3.5em;
+        width: 203px;
     }
     .promo__link.link {
         position: relative;
@@ -430,49 +430,142 @@ body {
 /* Third(look) section */
 
 .look {
-    /*width: 100%;*/
     background: linear-gradient(to right, #EBE3D8 102px, #000 102px, #000 143px, #EBE3D8 143px);
-    border: 2px solid blue;
     display: flex;
     flex-flow: column;
+    height: 597px;
  }
 
 .look__wrap {
     background-image: url(../images/product-set.png);
     background-repeat: no-repeat;
-    /*width: 95%;*/
-    background-size: 95%;
+    width: 100%;
+    /*background-size: 95%;*/
+    background-size: 351px 261px;
     background-position: center 34px;
-    height: 450px;
+    height: 100%;
     display: flex;
     flex-flow: column;
     justify-content:flex-end;
-    border: 2px solid red;
     align-self: center; 
 }
 
 .look__wrap-text {
     display: flex;
     align-self: flex-end;
-    border: 2px solid green;
     flex-flow: column;
-    width: 80%;
+    width: 305px;
     background-color: #FAE8E4;
     margin-right: 26px;
     padding: 20px;
     box-sizing: border-box;
 }
-.look__title,
-.look__description {
+.look__title {
     margin: 0;
 }
 
-.look__quantity {
+.look__subtitle {
+    margin: 5px 0 0;
+}
+
+.look__description {
+    margin-bottom: 20px;
+}
+
+.look__cart-form {
+    margin-bottom: 12px;
+}
+
+.look__quantity,
+.look__created {
     display: none;
 }
 
+.look__cart-form {
+    display: flex;
+    justify-content: space-between;
+}
+
 .look__link.button {
-        border: 1px solid #000;
-        text-align: center;
-        line-height: 3.5em;
+    border: 1px solid #000;
+    text-align: center;
+    line-height: 2.7em;
+    width: 260px;
+}
+
+.look__path {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    height: 140px;
+    width: 50%;
+}
+
+.look__link.link {
+    position: relative;
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 15px;
+    }
+
+.look__link.link::after {
+        position: absolute;
+        left: 0;
+        display: block;
+        content: "";
+        width: 135px;
+        height: 12px;
+        background-image: url(../images/look__arrow-mob.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    @media (min-width: 620px ) and (max-width: 991px) {
+    .look__path {
+        justify-content: center;
+    }
+    .look__wrap {
+    width: 100%;
+    background-size: 95%;
+    background-position: center 34px;
+    height: 475px;
+}
+}
+
+@media (min-width: 992px) {
+.look {
+    background: linear-gradient(to right, #EBE3D8 388px, #000 388px, #000 461px, #EBE3D8 461px);
+    display: flex;
+    border: 2px solid blue;
+    /*flex-flow: column;*/
+    height: 900px;
+    flex-flow: row;
+    /*justify-content: center;*/
+ }
+
+.look__wrap {
+    background-size: 827px 621px;
+    background-position: 70px;
+    /*height: 475px;
+    display: flex;*/
+    flex-flow: column;
+    justify-content: center;
+    border: 2px solid red;
+    width: 90%;
+}
+.look__wrap-text {
+    border: 2px solid red;
+    width: 475px;
+    height: 351px;
+    margin-bottom: 20px;
+    border: 2px solid green;
+
+}
+
+.look__path {
+    width: 300px;
+    height: 30px;
+    border: 2px solid green;
+}
+
 }
