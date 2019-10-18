@@ -452,12 +452,12 @@ body {
     .product__text-box{
         display: flex;
         flex-direction: column;
-        width: 90%;
-        height: 90%;
-        padding: 10px;
+        width: 80%;
+        height: 100%;
     }
 
     .product__link {
+        height: 45px;
         border: 2px solid purple;
     }
 }
