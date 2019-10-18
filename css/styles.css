@@ -434,14 +434,27 @@ body {
     .product__wrap-text {
         display: flex;
         flex-flow: column wrap;
-        border: 2px solid blue;
+       justify-content: center;
+
     }
 
     .product__container {
-        width: 488px;
-        height: 556px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         background: #FFF;
-        border: 2px solid blue;
+        box-shadow: 25px 25px 40px -34px #808080;
+        min-width: 430px;
+        max-width: 488px;
+        height: 556px;
+
+    }
+    .product__text-box{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+        padding: 10px;
     }
 
     .product__link {
@@ -576,7 +589,7 @@ body {
     width: 90%;
 }
 .look__wrap-text {
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 475px;
     height: 351px;
     margin-bottom: 20px;
