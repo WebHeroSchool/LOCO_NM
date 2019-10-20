@@ -55,7 +55,8 @@ body {
 }
 .promo__link,
 .product__link,
-.look__link {
+.look__link,
+.product__link-others{
         text-decoration: none;
         color: #000;
         cursor: pointer;
@@ -457,10 +458,27 @@ body {
     }
 
     .product__link {
-        height: 45px;
-        border: 2px solid purple;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        height: 55px;
+
+    }
+
+    .product__link-others{
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    .product__link-arrow{
+        display: flex;
+        align-items: center;
     }
 }
+
 
 /* Third(look) section */
 
