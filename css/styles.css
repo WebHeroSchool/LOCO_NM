@@ -224,6 +224,8 @@ body {
     display: flex;
     flex-flow: column;
     justify-content:flex-end;
+
+
 }
 
 .promo__title {
@@ -394,18 +396,149 @@ body {
     }
 }
 /*Second (product) section*/
-@media(min-width: 992px) {
-    .product {
-        background: #FAE8E4;
+.product {
+    background: #FAE8E4;
+    width: 100%;
 
-    }
+    border: 2px solid red;
+}
+.product__wrap {
+    height: 596px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+
+    border: 2px solid red;
+}
+.product__wrap-img{
+    background-image: url(../images/pink-bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -55px;
+    display: flex;
+    width: 47%;
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+}
+.product__wrap-text {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+
+    border: 2px solid red;
+}
+
+.product__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 25px 25px 40px -34px #808080;
+    min-width: 320px;
+    max-width: 488px;
+    /*width: 320px;*/
+    height: 281px;
+    border: 2px solid red;
+}
+.product__text-box{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+
+    border: 2px solid red;
+}
+.product__buttons{
+    display: flex;
+    width: 100%;
+    height: 86px;
+    align-items: center;
+    justify-content: space-between;
+
+    border: 2px solid red;
+}
+
+.product__select-color{
+    display: flex;
+    width: 156px;
+    height: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid red;
+}
+
+.product__price{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 28px;
+    border: 2px solid red;
+}
+
+.select__item{
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    border: 2px solid red;
+
+}
+.select__item_grey{
+    background-color: #dedede;
+}
+.select__item_pink{
+    background-color: #f29f9f;
+}
+.select__item_blue{
+    background-color: #a8bff9;
+}
+.select__item_green{
+    background-color: #90bd8f;
+}
+
+.select__item_checked{
+    width: 29px;
+    height: 29px;
+}
+
+/*.product__cart-form{*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    width: 100%;*/
+/*    height: 120px;*/
+/*    justify-content: space-between;*/
+/*    align-items: center;*/
+/*}*/
+
+
+.product__add{
+    display: block;
+    width: 260px;
+    height: 37px;
+    border: 1.5px solid #000;
+    background: transparent;
+
+}
+
+.product__img-grey,
+.product__img-pink,
+.product__link,
+.product__quantity{
+    display: none;
+}
+
+@media(min-width: 992px) {
 
     .product__wrap {
         height: 900px;
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        /*justify-content: center;*/
+        background-image: none;
+
+        border: 2px solid blue;
     }
 
     .product__wrap-img {
@@ -413,9 +546,15 @@ body {
         display: flex;
         width: 47%;
         align-items: center;
+
+        border: 2px solid blue;
     }
 
-    .product__img-grey {
+    .product__img-grey,
+    .product__img-pink,
+    .product__link,
+    .product__quantity{
+        display: block;
     }
 
     .product__img-pink {
@@ -423,12 +562,15 @@ body {
         left: 14%;
         width: 80%;
         height: auto;
+        border: 2px solid blue;
     }
 
     .product__wrap-text {
         display: flex;
         flex-flow: column wrap;
        justify-content: center;
+
+        border: 2px solid blue;
     }
 
     .product__container {
@@ -441,12 +583,16 @@ body {
         max-width: 488px;
         height: 556px;
 
+        border: 2px solid blue;
+
     }
     .product__text-box{
         display: flex;
         flex-direction: column;
         width: 80%;
         height: 100%;
+
+        border: 2px solid blue;
     }
 
     .product__link {
@@ -454,6 +600,7 @@ body {
         align-content: center;
         height: 55px;
         position: relative;
+        border: 2px solid blue;
     }
 
     .product__link-others.link {
@@ -461,6 +608,8 @@ body {
         top:17px;
         width: 478px;
         cursor: pointer;
+
+        border: 2px solid blue;
     }
 
     .product__link-others.link::after {
@@ -474,6 +623,8 @@ body {
         background-image: url(../images/product_arrow.svg);
         background-repeat: no-repeat;
         background-position: center;
+
+        border: 2px solid blue;
     }
 
 
@@ -483,6 +634,8 @@ body {
         height: 86px;
         align-items: center;
         justify-content: space-between;
+
+        border: 2px solid blue;
     }
 
     .product__select-color{
@@ -491,6 +644,8 @@ body {
         height: 30px;
         justify-content: space-between;
         align-items: center;
+
+        border: 2px solid blue;
     }
 
     .product__price{
@@ -530,6 +685,8 @@ body {
         height: 120px;
         justify-content: space-between;
         align-items: center;
+
+        border: 2px solid blue;
     }
 
     .product__quantity{
