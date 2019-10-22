@@ -395,7 +395,10 @@ body {
         text-align: center;
     }
 }
+
+
 /*Second (product) section*/
+
 .product {
     background: #FAE8E4;
     width: 100%;
@@ -468,6 +471,7 @@ body {
     justify-content: space-between;
     align-items: center;
     border: 2px solid red;
+    cursor: pointer;
 }
 
 .product__price{
@@ -518,6 +522,7 @@ body {
     height: 37px;
     border: 1.5px solid #000;
     background: transparent;
+    cursor: pointer;
 
 }
 
@@ -535,10 +540,10 @@ body {
         width: 100%;
         display: flex;
         flex-direction: row;
-        /*justify-content: center;*/
+        justify-content: space-around;
         background-image: none;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__wrap-img {
@@ -547,7 +552,7 @@ body {
         width: 47%;
         align-items: center;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__img-grey,
@@ -559,10 +564,10 @@ body {
 
     .product__img-pink {
         position: absolute;
-        left: 14%;
+        left: 35%;
         width: 80%;
         height: auto;
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__wrap-text {
@@ -570,7 +575,7 @@ body {
         flex-flow: column wrap;
        justify-content: center;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__container {
@@ -583,7 +588,7 @@ body {
         max-width: 488px;
         height: 556px;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
 
     }
     .product__text-box{
@@ -592,7 +597,7 @@ body {
         width: 80%;
         height: 100%;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__link {
@@ -600,7 +605,7 @@ body {
         align-content: center;
         height: 55px;
         position: relative;
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__link-others.link {
@@ -609,7 +614,7 @@ body {
         width: 478px;
         cursor: pointer;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__link-others.link::after {
@@ -624,7 +629,7 @@ body {
         background-repeat: no-repeat;
         background-position: center;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
 
@@ -635,7 +640,7 @@ body {
         align-items: center;
         justify-content: space-between;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__select-color{
@@ -644,8 +649,9 @@ body {
         height: 30px;
         justify-content: space-between;
         align-items: center;
+        cursor: pointer;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__price{
@@ -686,7 +692,7 @@ body {
         justify-content: space-between;
         align-items: center;
 
-        border: 2px solid blue;
+        /*border: 2px solid blue;*/
     }
 
     .product__quantity{
@@ -696,6 +702,7 @@ body {
         width: 100px;
         height: 44px;
         border: 1.5px solid #000;
+        cursor: pointer;
     }
 
     .product__add{
@@ -704,6 +711,7 @@ body {
         height: 44px;
         border: 1.5px solid #000;
         background: transparent;
+        cursor: pointer;
     }
 
 }
