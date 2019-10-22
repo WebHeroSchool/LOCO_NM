@@ -402,36 +402,38 @@ body {
 .product {
     background: #FAE8E4;
     width: 100%;
-
-    border: 2px solid red;
 }
 .product__wrap {
-    height: 596px;
     display: flex;
     flex-flow: column;
-    justify-content: space-around;
     align-items: center;
-
-    border: 2px solid red;
+    width: 100%;
+    height: 596px;
 }
 .product__wrap-img{
-    background-image: url(../images/pink-bag.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -55px;
     display: flex;
-    width: 47%;
-    height: 250px;
+    width: 80%;
+    height: 55%;
     align-items: center;
-    justify-content: center;
-    border: 2px solid red;
+    position: relative;
+}
+
+.product__img-pink{
+    position: absolute;
+    width: 80%;
+    left: 14%;
+    height: auto;
 }
 .product__wrap-text {
     display: flex;
-    flex-flow: column wrap;
+    flex-direction: column;
     justify-content: center;
+    width: 85%;
+    height: 100%;
+    min-width: 186px;
+    max-width: 320px;
+    position: relative;
 
-    border: 2px solid red;
 }
 
 .product__container {
@@ -440,37 +442,32 @@ body {
     align-items: center;
     background: #FFF;
     box-shadow: 25px 25px 40px -34px #808080;
-    min-width: 320px;
-    max-width: 488px;
-    /*width: 320px;*/
-    height: 281px;
-    border: 2px solid red;
+    position: relative;
 }
 .product__text-box{
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 100%;
-
-    border: 2px solid red;
+    justify-content: center;
+    padding: 10px;
 }
+
+.product__title{
+    height: 0;
+}
+
 .product__buttons{
     display: flex;
     width: 100%;
-    height: 86px;
+    height: 60px;
     align-items: center;
     justify-content: space-between;
-
-    border: 2px solid red;
 }
-
 .product__select-color{
     display: flex;
     width: 156px;
     height: 30px;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid red;
     cursor: pointer;
 }
 
@@ -478,14 +475,12 @@ body {
     font-size: 20px;
     font-weight: bold;
     line-height: 28px;
-    border: 2px solid red;
 }
 
 .select__item{
     width: 23px;
     height: 23px;
     border-radius: 50%;
-    border: 2px solid red;
 
 }
 .select__item_grey{
@@ -506,18 +501,15 @@ body {
     height: 29px;
 }
 
-/*.product__cart-form{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*    width: 100%;*/
-/*    height: 120px;*/
-/*    justify-content: space-between;*/
-/*    align-items: center;*/
-/*}*/
-
-
+.product__cart-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+}
 .product__add{
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 260px;
     height: 37px;
     border: 1.5px solid #000;
@@ -527,7 +519,6 @@ body {
 }
 
 .product__img-grey,
-.product__img-pink,
 .product__link,
 .product__quantity{
     display: none;
@@ -540,64 +531,47 @@ body {
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: space-evenly;
         background-image: none;
-
-        /*border: 2px solid blue;*/
     }
 
     .product__wrap-img {
-        position: relative;
-        display: flex;
         width: 47%;
-        align-items: center;
-
-        /*border: 2px solid blue;*/
+        height: 100%;
     }
 
     .product__img-grey,
-    .product__img-pink,
     .product__link,
     .product__quantity{
         display: block;
     }
-
-    .product__img-pink {
+    .product__img-grey{
         position: absolute;
-        left: 35%;
-        width: 80%;
+        width: 53%;
         height: auto;
-        /*border: 2px solid blue;*/
     }
 
     .product__wrap-text {
-        display: flex;
-        flex-flow: column wrap;
-       justify-content: center;
+       width: 34%;
+        min-width: 430px;
+        max-width: 488px;
 
-        /*border: 2px solid blue;*/
+        border: 2px solid blue;
     }
 
     .product__container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #FFF;
-        box-shadow: 25px 25px 40px -34px #808080;
         min-width: 430px;
         max-width: 488px;
         height: 556px;
 
-        /*border: 2px solid blue;*/
-
+        border: 2px solid blue;
     }
+
     .product__text-box{
         display: flex;
         flex-direction: column;
         width: 80%;
         height: 100%;
-
-        /*border: 2px solid blue;*/
     }
 
     .product__link {
@@ -605,7 +579,6 @@ body {
         align-content: center;
         height: 55px;
         position: relative;
-        /*border: 2px solid blue;*/
     }
 
     .product__link-others.link {
@@ -613,8 +586,6 @@ body {
         top:17px;
         width: 478px;
         cursor: pointer;
-
-        /*border: 2px solid blue;*/
     }
 
     .product__link-others.link::after {
@@ -628,30 +599,17 @@ body {
         background-image: url(../images/product_arrow.svg);
         background-repeat: no-repeat;
         background-position: center;
-
-        /*border: 2px solid blue;*/
     }
 
 
     .product__buttons{
-        display: flex;
-        width: 100%;
         height: 86px;
-        align-items: center;
-        justify-content: space-between;
-
-        /*border: 2px solid blue;*/
     }
 
     .product__select-color{
-        display: flex;
         width: 156px;
         height: 30px;
-        justify-content: space-between;
-        align-items: center;
         cursor: pointer;
-
-        /*border: 2px solid blue;*/
     }
 
     .product__price{
@@ -665,18 +623,6 @@ body {
         height: 30px;
         border-radius: 50%;
 
-    }
-    .select__item_grey{
-        background-color: #dedede;
-    }
-    .select__item_pink{
-        background-color: #f29f9f;
-    }
-    .select__item_blue{
-        background-color: #a8bff9;
-    }
-    .select__item_green{
-        background-color: #90bd8f;
     }
 
     .select__item_checked{
@@ -705,13 +651,22 @@ body {
         cursor: pointer;
     }
 
-    .product__add{
-        display: block;
-        width: 253px;
-        height: 44px;
-        border: 1.5px solid #000;
-        background: transparent;
-        cursor: pointer;
+/*    .product__add{*/
+/*        display: block;*/
+/*        width: 253px;*/
+/*        height: 44px;*/
+/*        border: 1.5px solid #000;*/
+/*        background: transparent;*/
+/*        cursor: pointer;*/
+/*    }*/
+
+}
+
+@media (min-width: 480px) and (max-width: 998px) {
+    .product__img-pink{
+        width: 40%;
+        left: 24%;
+        height: auto;
     }
 
 }
