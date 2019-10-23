@@ -688,7 +688,7 @@ body {
     position: absolute;
     top: 34px;
     right: 10px;
-    box-shadow: 25px 25px 40px -34px #808080;
+    box-shadow: -25px 35px 40px -34px #808080;
 }
 
 .look__wrap {
@@ -808,9 +808,9 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
-.look__wrap img {
+/*.look__wrap img {
 -webkit-filter: drop-shadow(4px 4px grey);
-}
+}*/
 
     @media (min-width: 451px) and (max-width: 991px) {
     .look__path {
@@ -855,6 +855,7 @@ body {
     /*position: absolute;*/
     top: 139px;
     left: 34px;
+    box-shadow: none;
 }
 .look__wrap {
     /*background-size: 827px 621px;
