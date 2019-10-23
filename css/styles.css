@@ -674,21 +674,38 @@ body {
     display: flex;
     flex-flow: column;
     height: 597px;
+    position: relative;
  }
 
-.look__wrap {
+ .look__wrap-img {
     background-image: url(../images/product-set.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: center 34px;*/
+    /*border: 2px solid blue;*/
+    height: 261px;
+    width: 95%;
+    position: absolute;
+    top: 34px;
+    right: 10px;
+    box-shadow: 25px 25px 40px -34px #808080;
+}
+
+.look__wrap {
+    /*background-image: url(../images/product-set.png);
+    background-repeat: no-repeat;*/
     width: 100%;
     /*background-size: 95%;*/
-    background-size: 351px 261px;
-    background-position: center 34px;
+    /*background-size: cover;
+    /*background-position: center 34px;*/
     height: 100%;
     display: flex;
     flex-flow: column;
     justify-content:flex-end;
     align-self: center;
 }
+
+
 
 .look__container {
     display: flex;
@@ -701,6 +718,7 @@ body {
     margin-right: 26px;
     /*padding: 20px;*/
     box-sizing: border-box;
+    z-index: 1;
 }
 
 .look__wrap-text {
@@ -790,16 +808,29 @@ body {
         background-repeat: no-repeat;
         background-position: center;
     }
+.look__wrap img {
+-webkit-filter: drop-shadow(4px 4px grey);
+}
 
-    @media (min-width: 500px ) and (max-width: 991px) {
+    @media (min-width: 451px) and (max-width: 991px) {
     .look__path {
         justify-content: center;
     }
-    .look__wrap {
-    width: 100%;
-    background-size: 95%;
-    background-position: center 34px;
-    /*height: 475px;*/
+}
+        @media (min-width: 451px) and (max-width: 550px) {
+    .look__wrap-img {
+    height: 350px;
+}
+}
+    @media (min-width: 551px) and (max-width: 700px) {
+    .look__wrap-img {
+    height: 450px;
+}
+}
+    @media (min-width: 701px) and (max-width: 991px) {
+    .look__wrap-img {
+    height: 550px;
+    top: 15px;
 }
 }
 
@@ -813,9 +844,20 @@ body {
     /*flex-flow: row;*/
     /*justify-content: center;*/
  }
-
+.look__wrap-img {
+    /*background-image: url(../images/product-set.png);
+    background-repeat: no-repeat;
+    background-size: cover;*/
+    /*background-position: center 34px;*/
+    /*border: 2px solid blue;*/
+    width: 912px;
+    height: 646px;
+    /*position: absolute;*/
+    top: 139px;
+    left: 34px;
+}
 .look__wrap {
-    background-size: 827px 621px;
+    /*background-size: 827px 621px;
     background-position: 70px;
     /*height: 475px;
     display: flex;*/
