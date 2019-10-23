@@ -21,7 +21,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 13px;
-    cursor: pointer;
+    /*cursor: pointer;*/
 }
 
 .button {
@@ -575,18 +575,46 @@ body {
     align-self: center;
 }
 
-.look__wrap-text {
+.look__container {
     display: flex;
     align-self: flex-end;
-    flex-flow: column;
+    justify-content: center;
+    /*flex-flow: column;*/
     width: 305px;
+    height: 195px;
     background-color: #FAE8E4;
     margin-right: 26px;
-    padding: 20px;
+    /*padding: 20px;*/
     box-sizing: border-box;
 }
+
+.look__wrap-text {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;
+        /*justify-content: center;*/
+}
+
+/*.product__container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFF;
+        box-shadow: 25px 25px 40px -34px #808080;
+        min-width: 430px;
+        max-width: 488px;
+        height: 556px;
+
+    }
+    .product__text-box{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        height: 100%;*/
 .look__title {
-    margin: 0;
+    margin-bottom: 0;
+    margin-top: 26px;
 }
 
 .look__subtitle {
@@ -611,6 +639,8 @@ body {
     justify-content: space-between;
 }
 
+
+
 .look__link.button {
     border: 1px solid #000;
     text-align: center;
@@ -622,7 +652,7 @@ body {
     display: flex;
     align-self: flex-end;
     align-items: center;
-    height: 140px;
+    height: 130px;
     width: 50%;
 }
 
@@ -631,11 +661,12 @@ body {
     font-size: 15px;
     line-height: 18px;
     padding-bottom: 15px;
+    width: 140px;
     }
 
 .look__link.link::after {
         position: absolute;
-        left: 0;
+        /*left: 0;*/
         display: block;
         content: "";
         width: 135px;
@@ -645,7 +676,7 @@ body {
         background-position: center;
     }
 
-    @media (min-width: 620px ) and (max-width: 991px) {
+    @media (min-width: 500px ) and (max-width: 991px) {
     .look__path {
         justify-content: center;
     }
@@ -653,7 +684,7 @@ body {
     width: 100%;
     background-size: 95%;
     background-position: center 34px;
-    height: 475px;
+    /*height: 475px;*/
 }
 }
 
@@ -664,7 +695,7 @@ body {
     border: 2px solid blue;
     /*flex-flow: column;*/
     height: 900px;
-    flex-flow: row;
+    /*flex-flow: row;*/
     /*justify-content: center;*/
  }
 
@@ -677,20 +708,92 @@ body {
     justify-content: center;
     border: 2px solid red;
     width: 90%;
+    align-self: flex-start;
 }
-.look__wrap-text {
+
+.look__container {
     /*border: 2px solid red;*/
     width: 475px;
     height: 351px;
     margin-bottom: 20px;
     border: 2px solid green;
+    margin-right: 15px;
+}
 
+.look__wrap-text {
+
+}
+.look__title {
+    margin-bottom: 20px;
+}
+
+.look__quantity {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100px;
+    height: 44px;
+    border: 1.5px solid #000;
+}
+
+.quantity__value {
+    background-color: #FAE8E4;
+    border: 0;
+    text-align: center;
+}
+
+.look__cart-form {
+    height: 150px;
+    align-items: center;
+}
+
+.look__link.button {
+    border: 1.5px solid #000;
+    height: 44px;
+    line-height: 3.5em;
 }
 
 .look__path {
-    width: 300px;
-    height: 30px;
+    width: 350px;
+    height: 50px;
     border: 2px solid green;
+    align-items: flex-end;
+}
+
+.look__link.link {
+    width: 100%;
+    position: relative;
+    font-size: 13px;
+    line-height: 16px;
+}
+.look__link.link::after {
+    position: absolute;
+        top: 3px;
+        right: 14px;
+        width: 108px;
+        /*height: 0;*/
+        background-image: url(../images/look__arrow-desk.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+.look__created {
+    display: flex;
+     align-self: flex-end;
+     align-items: center;
+
+ }
+ .look__created-txt {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 15px;
+    width: 120px;
+ }
+
+.look__created-img {
+    width: 82px;
+    height: 22px;
+    margin-right: 10px;
 }
 
 }
