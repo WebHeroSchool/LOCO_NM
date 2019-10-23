@@ -807,7 +807,7 @@ body {
 .look {
     background: linear-gradient(to right, #EBE3D8 388px, #000 388px, #000 461px, #EBE3D8 461px);
     display: flex;
-    border: 2px solid blue;
+    /*border: 2px solid blue;*/
     /*flex-flow: column;*/
     height: 900px;
     /*flex-flow: row;*/
@@ -821,7 +821,7 @@ body {
     display: flex;*/
     flex-flow: column;
     justify-content: center;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     width: 90%;
     align-self: flex-start;
 }
@@ -831,7 +831,7 @@ body {
     width: 475px;
     height: 351px;
     margin-bottom: 20px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     margin-right: 15px;
 }
 
@@ -871,7 +871,7 @@ body {
 .look__path {
     width: 350px;
     height: 50px;
-    border: 2px solid green;
+    /*border: 2px solid green;*/
     align-items: flex-end;
 }
 
