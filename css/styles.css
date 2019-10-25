@@ -715,6 +715,10 @@ body {
         height: 40px;
         border: 1.5px solid #000;
         cursor: pointer;
+
+    }
+    .product__quantity-value{
+        background-color: #FFF;
     }
 
     .product__add{
