@@ -58,9 +58,9 @@ body {
 .product__link,
 .look__link,
 .product__link-others{
-        text-decoration: none;
-        color: #000;
-        cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
 }
 
 @media (min-width: 992px) {
@@ -280,7 +280,7 @@ body {
         background-image: none;
         flex-flow: row;
         justify-content: flex-start;
-     }
+    }
 
     .promo__social-mob {
         display: none;
@@ -305,7 +305,7 @@ body {
         padding: 0 30px;
     }
 
-       .promo__title {
+    .promo__title {
         padding-left: 0;
         margin-top: 0;
         width: 475px;
@@ -326,7 +326,6 @@ body {
         width: 467px;
         opacity: 1;
     }
-        
     .promo__buttons {
         display: flex;
         justify-content: space-between;
@@ -736,9 +735,9 @@ body {
     flex-flow: column;
     height: 597px;
     position: relative;
- }
+}
 
- .look__wrap-img {
+.look__wrap-img {
     background-image: url(../images/product-set.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -772,10 +771,10 @@ body {
 }
 
 .look__wrap-text {
-        display: flex;
-        flex-direction: column;
-        width: 80%;
-        height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
 }
 
 .look__title {
@@ -826,18 +825,18 @@ body {
     line-height: 18px;
     padding-bottom: 15px;
     width: 140px;
-    }
+}
 
 .look__link.link::after {
-        position: absolute;
-        display: block;
-        content: "";
-        width: 135px;
-        height: 12px;
-        background-image: url(../images/look__arrow-mob.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+    position: absolute;
+    display: block;
+    content: "";
+    width: 135px;
+    height: 12px;
+    background-image: url(../images/look__arrow-mob.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 
 @media (min-width: 451px) and (max-width: 991px) {
     .look__path {
@@ -847,19 +846,19 @@ body {
 
 @media (min-width: 451px) and (max-width: 550px) {
     .look__wrap-img {
-    height: 350px;
+        height: 350px;
     }
 }
 @media (min-width: 551px) and (max-width: 700px) {
     .look__wrap-img {
-    height: 450px;
+        height: 450px;
     }
 }
 
 @media (min-width: 701px) and (max-width: 991px) {
     .look__wrap-img {
-    height: 550px;
-    top: 15px;
+        height: 550px;
+        top: 15px;
     }
 }
 
